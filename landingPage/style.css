@@ -5,7 +5,6 @@
    --headerColorText: #f9faf8;
    --buttonColor: #3882f6;
    --infoTextColor: #1f2937;
-   
 }
 
 * {
@@ -42,10 +41,6 @@
     padding-top: 10px;
     padding-left: 20px;
     color: var(--grayBackgroundColor);
-}
-
-.pageContainer {
-   
 }
 
 .topContainer {
@@ -96,6 +91,7 @@
     color: var(--headerColorText);
     font-size: large;
 }
+
  .topImg {
      flex: 2 100px;
      padding: 20px;
@@ -108,6 +104,7 @@
     width: 400px;
     border-radius: 0%;
  }
+
  .container2 {
      background-color: var(--headerColorText);
      font-family: 'Roboto', sans-serif;
@@ -124,7 +121,6 @@
      font-size: 40px;
      padding: 12px;
      flex: 5;
-     
  }
  
  .imgBox {
@@ -133,9 +129,7 @@
     justify-content: center;  
     align-items: center;
     align-content: center;
-    flex: 1;
-    
-       
+    flex: 1;    
  }
 
  #card1 {
@@ -238,8 +232,8 @@
      width: 150px;
      height: 150px;
      border-radius: 5%;
-     padding: 10px;
-     border: 5px solid var(--buttonColor);
+     padding: 15px;
+     border: 3px solid var(--buttonColor);
      
  }
 
@@ -289,8 +283,6 @@
      padding-right: 50px;
      padding-left: 50px;
      border-radius: 10px;;
-    
-
  }
 
  .innerCallBox {
@@ -299,6 +291,7 @@
      align-content: center;
      color: var(--buttonBackgroundColor);
  }
+
  .innerCallBox h4 {
      font-size: larger;
  }
@@ -335,8 +328,8 @@
      margin: 0px;
      padding: 20px;
      border: 0px;
-
  }
+
  .footerText {
      text-align: center;
      padding: 20px;
