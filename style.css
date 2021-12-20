@@ -45,12 +45,11 @@
 .box:hover {
    background-color: var(--buttonColor);
    color: var(--darkBackgroundColor);
-   border-radus: 5px;
+   border-radus: 10px;
 }
 
 .box {
     padding-top: 10px;
-    padding-left: 20px;
 }
 
 @media (max-width: 640px) {
