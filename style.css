@@ -30,7 +30,7 @@
     margin: 0 auto;
    
 }
-.boxLink :hover {
+.box :hover {
    background-color: var(--buttonColor);
    color: var(--darkBackgroundColor);
 }
