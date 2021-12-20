@@ -42,14 +42,14 @@
     color: var(--grayBackgroundColor);
 }
 
+.box {
+    padding-top: 10px;
+}
+
 .box:hover {
    background-color: var(--buttonColor);
    color: var(--darkBackgroundColor);
-   border-radus: 10px;
-}
-
-.box {
-    padding-top: 10px;
+   border-radus: 20px;
 }
 
 @media (max-width: 640px) {
