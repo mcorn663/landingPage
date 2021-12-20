@@ -32,6 +32,7 @@
 .box:hover {
    background-color: var(--buttonColor);
    color: var(--darkBackgroundColor);
+   border-radus: 5px;
 }
 
 .logoImg {
@@ -110,7 +111,7 @@
     margin: 0;
 }
    
-   .signupBox:hover {
+   .signupButton:hover {
        background-color: var(--buttonBackgroundColor);
        color: var(--darkBackgroundColor);
 }
@@ -364,9 +365,9 @@
     padding-right: 20px;
  }
   
-   .callButton :hover {
+   .callButton:hover {
       background-color: var(--buttonColor);
-      color: var(--darkBackgroundColor);
+      color: var(--buttonBackgroundColor);
 }
 
  .callButton {
