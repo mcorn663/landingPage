@@ -50,6 +50,7 @@
    background-color: var(--buttonColor);
    color: var(--darkBackgroundColor);
    border-radus: 20px;
+   text-decoration: bold;
 }
 
 @media (max-width: 640px) {
@@ -378,6 +379,7 @@
    .callButton:hover {
       background-color: var(--headerColorText);
       color: var(--buttonBackgroundColor);
+      border-color: var(--buttonColor);
 }
 
  .footer {
@@ -387,8 +389,8 @@
      margin: 0px;
      padding: 20px;
      border: 0px;
-
  }
+
  .footerText {
      text-align: center;
      padding: 20px;
