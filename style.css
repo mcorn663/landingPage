@@ -104,14 +104,14 @@
     font-family: 'Roboto', sans-serif;
     margin: 0;
 }
+   
+   .signupBox:hover {
+       background-color: var(--buttonBackgroundColor);
+       color: var(--darkBackgroundColor);
+}
 
 .signupBox {
     padding:20px;
-}
-
-.signupBox:hover {
-   background-color: var(--buttonBackgroundColor);
-   color: var(--darkBackgroundColor);
 }
 
 #box1 {
@@ -147,6 +147,7 @@
     color: var(--headerColorText);
     font-size: large;
 }
+   
  .topImg {
      flex: 2 100px;
      padding: 20px;
@@ -175,7 +176,6 @@
      font-size: 40px;
      padding: 12px;
      flex: 5;
-     
  }
  
  .imgBox {
@@ -186,10 +186,7 @@
     align-content: center;
     flex: 1;
     width: 50%;
-    height: 50%;
-
-    
-       
+    height: 50%'     
  }
 
  #card1 {
@@ -338,9 +335,7 @@
      justify-content: center;
      padding-right: 50px;
      padding-left: 50px;
-     border-radius: 10px;;
-    
-
+     border-radius: 10px;
  }
 
  .innerCallBox {
@@ -363,6 +358,11 @@
     flex: 1;
     padding-right: 20px;
  }
+  
+   .callButton :hover {
+      background-color: var(--buttonColor);
+      color: var(--darkBackgroundColor);
+}
 
  .callButton {
      padding-right: 10px;
@@ -377,11 +377,6 @@
      border-radius: 10px;
      font-size: larger;
  }
-
-.callButton :hover {
-   background-color: var(--buttonColor);
-   color: var(--darkBackgroundColor);
-}
 
  .footer {
      background-color: var(--darkBackgroundColor);
