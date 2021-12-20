@@ -29,7 +29,7 @@
     margin: 0 auto;
 }
 
-.box :hover {
+.box:hover {
    background-color: var(--buttonColor);
    color: var(--darkBackgroundColor);
 }
@@ -44,13 +44,14 @@
     flex: 5;
     list-style:  none; 
     padding-right: 5em;
+    color: var(--grayBackgroundColor);
 }
 
 .box {
     float: right;
     padding-top: 10px;
     padding-left: 20px;
-    color: var(--grayBackgroundColor);
+   
 }
 
 @media (max-width: 640px) {
@@ -108,7 +109,7 @@
     padding:20px;
 }
 
-.signupBox :hover {
+.signupBox:hover {
    background-color: var(--buttonBackgroundColor);
    color: var(--darkBackgroundColor);
 }
