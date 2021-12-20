@@ -30,6 +30,10 @@
     margin: 0 auto;
    
 }
+.nav :hover {
+   background-color: var(--buttonColor);
+   color: var(--darkBackgroundColor);
+}
 
 .logoImg {
     
@@ -110,6 +114,11 @@
 
 .signupBox {
     padding:20px;
+}
+
+.signupBox :hover {
+   background-color: var(--buttonBackgroundColor);
+   color: var(--darkBackgroundColor);
 }
 
 #box1 {
