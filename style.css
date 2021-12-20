@@ -5,7 +5,6 @@
    --headerColorText: #f9faf8;
    --buttonColor: #3882f6;
    --infoTextColor: #1f2937;
-   
 }
 
 * {
@@ -14,10 +13,10 @@
     font-family: 'Roboto', sans-serif;
     overflow: wrap;
 }
+
 .logo {
     border: 3px solid var(--darkBackgroundColor);
     background-color: var(--darkBackgroundColor);
-
 }
 
 .nav{
@@ -28,19 +27,17 @@
     background-color: var(--darkBackgroundColor);
     color: var(--headerColorText); 
     margin: 0 auto;
-   
 }
+
 .box :hover {
    background-color: var(--buttonColor);
    color: var(--darkBackgroundColor);
 }
 
 .logoImg {
-    
     margin-left: 5em;
     height: 80px;
     width: 100px;
-    
 }
 
 .boxLink{
@@ -71,7 +68,6 @@
     }
 
     .logo {
-
         margin: 10px;
         flex-direction: column;
         padding: 5px;
@@ -86,19 +82,15 @@
        flex-direction: column;
        width: 40%;
     }
-    .topContainer {
+  
+   .topContainer {
         flex-direction: column;
         flex-wrap: wrap;
     }
-    #box1 {
+   
+   #box1 {
         flex-wrap: wrap;
     }
-
-}
-
-.pageContainer {
-   
-}
 
 .topContainer {
     background-color: var(--darkBackgroundColor);
@@ -384,6 +376,11 @@
      border-radius: 10px;
      font-size: larger;
  }
+
+.callButton :hover {
+   background-color: var(--buttonColor);
+   color: var(--darkBackgroundColor);
+}
 
  .footer {
      background-color: var(--darkBackgroundColor);
