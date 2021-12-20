@@ -92,6 +92,7 @@
    #box1 {
         flex-wrap: wrap;
     }
+}
 
 .topContainer {
     background-color: var(--darkBackgroundColor);
