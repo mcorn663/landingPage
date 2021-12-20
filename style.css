@@ -94,6 +94,10 @@
     }
 }
 
+.pageContainer {
+   
+}
+
 .topContainer {
     background-color: var(--darkBackgroundColor);
     color: var(--headerColorText);
